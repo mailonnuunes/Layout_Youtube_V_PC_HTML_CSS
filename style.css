@@ -1,0 +1,374 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+nav{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article{
+    display: flex;
+}
+.menupt1{
+    display: flex;
+    align-items: center;
+    margin-left: 1.4583333333333vw;
+}
+
+.iconYoutube{
+    margin-left:  1.4583333333333vw;
+}
+
+.divBarraPesquisa{
+    display: flex;
+    align-items: center;
+
+}
+.divBarraPesquisa input{
+    width: 546px;
+    height: 40px;
+    border: 1px solid rgba(204, 204, 204, 1);
+    border-radius: 40px 0 0 40px;
+    padding-left: 1.1875rem;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    border-right: none;
+
+}
+.divBarraPesquisa button{
+    width: 65px;
+    height: 40px;
+    border: 1px solid rgba(204, 204, 204, 1);
+    border-radius: 0 40px 40px 0;
+    align-items: center;
+}
+.divBarraPesquisa button:hover{
+    cursor: pointer;
+}
+.divBarraPesquisa button img{
+    margin-top: 0.30927835051546vh;
+}
+.mic{
+    object-fit: contain;
+    margin-left: 1.0416666666667vw;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.mic:hover{
+    background-color: #e5e5e5 ;
+    cursor: pointer;
+}
+.menupt2{
+    display: flex;
+    align-items: center;
+    gap:  0.78125vw;
+    margin-right: 1.6759776536313vw;
+}
+.ftperfil{
+    width: 32px;
+    border-radius: 50%;
+    height: 32px;
+    
+}
+.ftperfil:hover{
+    cursor: pointer;
+}
+.sinoMenu{
+
+    border-radius: 50%;
+    object-fit: none;
+}
+.sinoMenu:hover,.camMenu:hover, .imgMenu:hover, .iconYoutube:hover{
+    cursor: pointer;
+}
+section{
+    margin-left: 5vw;
+    margin-top: 2.7835051546392vh;
+    width: 66.666666666667vw;
+}
+.videoYoutube{
+    width: 66.666666666667vw;
+    height: 74.150360453141vh;
+}
+section h1{
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 23.44px;
+    font-size: 1.25rem;
+    margin-top: 1.6494845360825vh;
+}
+.objInteracao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ladoEsquerdo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.61855670103093vh;
+    align-items: center;
+
+}
+
+.ladoEsquerdo img{
+    border-radius: 50%;
+
+}
+.ladoEsquerdo img:hover{
+    cursor: pointer;
+}
+.perfil{
+    margin-left: 0.72916666666667vw;
+}
+.perfil h3{
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 2.4164948453608vh;
+    font-size: 0.875rem;
+}
+.perfil h3:hover{
+    cursor: pointer;
+}
+.perfil p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 2.4164948453608vh;
+    font-size: 0.875rem;
+    color:rgba(81, 81, 81, 1);
+
+}
+.sejaMembro{
+    margin-left: 1.25vw;
+    width: 5.9895833333333vw;
+    height: 3.7113402061856vh;
+    border-radius: 40px 40px 40px 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.sejaMembro:hover{
+    background-color: #272727;
+    cursor: pointer;
+}
+.Inscrito{
+    margin-left: 0.46875vw;
+    width: 6.5625vw;
+    height: 3.7113402061856vh;
+    border-radius: 40px 40px 40px 40px;
+    color: black;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Roboto';
+    font-weight: 700;
+    border: none;
+
+}
+.ladoDireito{
+    display: flex;
+    gap: 0.36458333333333vw;
+    align-items: center;
+}
+.likeEDeslike{
+    display: flex;
+    align-items: center;
+}
+.btnLike{
+    width: 4.375vw;
+    height: 3.9175257731959vh;
+    border-radius:  40px 0 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    background-color:transparent ;
+    
+}
+.divisoriabtns{
+    height: 2.680412371134vh;
+    width: 0.052083333333333vw;
+    background-color: #cecece;
+}
+.btndeslike{
+    height: 3.9175257731959vh;
+    width: 2.7083333333333vw;
+    border-radius: 0 40px 40px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    background-color: transparent;
+
+}
+.btnCompartilhar{
+    height: 3.9175257731959vh;
+    width: 6.6666666666667vw;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    background-color: transparent ;
+}
+.btnDowload{
+    height: 3.9175257731959vh;
+    width: 5.6770833333333vw;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    background-color: transparent;
+}
+.btnClipe{
+    height: 3.9175257731959vh;
+    width: 4.5833333333333vw;
+    border-radius: 40px 40px 40px 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    background-color: transparent;
+}
+.btn3pontos{
+    height: 3.9175257731959vh;
+    width: 1.875vw;
+    border-radius: 40px 40px 40px 40px;
+    border: none;
+    background-color:transparent ;
+}
+.btn3pontos:hover,.btnClipe:hover,.btnCompartilhar:hover,.btndeslike:hover,.btnDowload:hover,.btnLike:hover,.Inscrito:hover{
+    cursor: pointer;
+}
+.informVideo{
+    margin: 2.0618556701031vh 0 0 0.52083333333333vw
+
+}
+.informVideo h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.6494845360825vh;
+    margin-top: 0.51546391752577;
+
+}
+.informVideo p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.6494845360825vh;
+
+    margin-top: 0.51546391752577vh;
+}
+aside{
+
+    margin: 3.1958762886598vh 0 0 1.25vw;
+    width: 20.833333333333vw;
+}
+.botoes{
+    display:flex;
+    width: 20.833333333333vw;
+    gap: 0.36458333333333vw;
+    align-items: center;
+
+}
+#btnTodos{
+    height: 3.5051546391753vh;
+    width: 3.4375vw;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+#btnAutor{
+    width: 8.2291666666667vw;
+    height: 3.5051546391753vh;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 0.875rem;
+    background-color: transparent;
+}
+#btnRelacionados{
+    width: 5.7291666666667vw;
+    height: 3.5051546391753vh;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 0.875rem;
+    background-color: transparent;
+}
+#btnMaisEsquerda{
+    width: 2.0833333333333vw;
+    height: 4.1237113402062vh;
+    border-radius: 50%;
+    border: none;
+
+}
+#btnMaisEsquerda:hover,#btnRelacionados:hover,#btnAutor:hover,#btnTodos:hover{
+    cursor: pointer;;
+}
+.boxVideo{
+    display: flex;
+    margin: 1.1340206185567vh 0 0 0;
+    
+}
+
+.textosBox{
+    margin: 0.51546391752577vh 0 0 0.41666666666667vw;
+}
+.textosBox h3{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 0.875rem;
+line-height: 1.6494845360825vh;
+}
+.textosBox h5{
+    margin:5px 0 0 0 
+}
+
+.textosBox p, h5{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 0.75rem;
+line-height: 1.4432989690722vh;
+color: #515151;
+
+}
+.imgVideo{
+    width: 170px;
+    height: 96px;
+}

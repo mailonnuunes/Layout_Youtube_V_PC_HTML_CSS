@@ -1,0 +1,166 @@
+@media screen and (max-width: 1327px){
+
+    .videoYoutube{
+        width: 59.393939393939vw;
+        height: 67.123287671233vh;
+    }
+    section{
+        width: 59.393939393939vw;
+    }
+    section h1{
+        max-width: 59.393939393939vw;
+    }
+    .ladoDireito{
+        gap:  0.75757575757576vh;
+    }
+    .btnDowload{
+        display: none;
+    }
+    .btnClipe{
+        display: none;
+    }
+    .btnLike{
+        width: 6.2121212121212vw;
+        height: 5.1750380517504vh;
+    }
+    .btndeslike{
+        height: 5.1750380517504vh;
+        width: 3.4848484848485vw;
+    }
+    .btnCompartilhar{
+        height: 5.1750380517504vh;
+        width: 9.2424242424242vw;
+    }
+    .btn3pontos{
+        height: 5.1750380517504;
+        width: 2.5757575757576vw;
+    }
+    .sejaMembro{
+        height: 5.1750380517504vh;
+        width: 8.4848484848485vw;
+    }
+    .Inscrito{
+        height: 5.1750380517504vh;
+        width: 8.4848484848485vw;
+    }
+    .perfil h3,  .perfil p{
+        font-size: 15px;
+    }
+   .informVideo{
+        margin: 4.5662100456621vh 0 0 0;
+        padding: 0 0 0 0.75757575757576vw;
+   }
+
+    .informVideo h3{
+        font-size: 0.9375rem;
+    }
+    .informVideo p{
+        font-size: 0.9375rem;
+        line-height: 3.0441400304414vh;
+        margin: 0.76103500761035vh 0 0 0px;
+    }
+    aside{
+        width: 26.893939393939vw;
+
+    }
+    .botoes{
+        width: 26.893939393939vw;
+        justify-content: space-around;
+    }
+    #btnTodos{
+        width: 4.3181818181818vw;
+        height: 4.5662100456621vh;
+        font-size: 1rem;
+    }
+    #btnAutor{
+        width: 10.606060606061vw;
+        height: 4.5662100456621vh;
+        font-size: 1rem;
+    }
+    #btnRelacionados{
+        width: 7.4242424242424vw;
+        height: 4.5662100456621vh;
+        font-size: 1rem;
+    }
+    #btnMaisEsquerda{
+        height: 4.5662100456621vh;
+        width: 2.8787878787879vw;
+    }
+    .boxVideo{
+        margin: 2.5875190258752vh 0 0 0 ;
+    }
+    .textosBox h3{
+        line-height: 2.283105022831vh;
+    }
+    .textosBox h5{
+        font-size: 0.9;
+        color: #606060;
+    }
+    .textosBox p{
+        line-height: 3.3485540334855vh;
+        color: #606060;
+    }
+}
+@media screen and (max-width: 1024px){
+    
+    article{
+        flex-direction: column;
+    }
+
+    section{
+        width: 100%;
+        margin: 0;
+    }
+
+    .videoYoutube{
+        width: 70%;
+        margin: 3.3333333333333vh 15%;
+        height: 60vh;
+    }
+    .centralizarObjs h1{
+        max-width: 94.140625vw;
+    }
+    .centralizarObjs{
+        max-width: 94.140625vw;
+        margin-left: 15%;
+    }
+    .objInteracao{
+        display: initial;
+    }
+    .ladoEsquerdo{
+        gap: 0.48828125vw;
+        margin-top: 1.6666666666667vh;
+        width: 100%;
+        
+    }
+    #btnTodos{
+        width: 6.8359375vw;
+    }
+    .perfil h3,  .perfil p{
+        font-size: 1rem;
+        line-height: 3.3333333333333335vh;
+    }
+    .sejaMembro{
+        width: 9.765625vw;
+        height: 4.5vh;
+    }
+    .Inscrito{
+        width: 95px ;
+        height: 4.5vh;
+    }
+    .ladoDireito{
+        margin: 3.3333333333333335vh 0 0 0;
+        gap: 3.90625vw;
+    }
+
+    .btnDowload{
+        display: flex;
+    }
+    .btnClipe{
+        display: flex;
+    }
+    .informVideo p{
+        max-width: 70.01953125vw;
+    }
+    
+}
